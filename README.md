@@ -1,8 +1,3 @@
-<div align=center height=35>
-  
-
-</div>
-
 # Restaurant Review APP
 
 This repository contains the source code for a restaurant review application developed using the Kotlin language within the Android Studio environment.
