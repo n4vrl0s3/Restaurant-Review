@@ -25,6 +25,12 @@ fun program() {
 
 <hr><br>
 
+## Releases
+
+You can find the latest releases [here](https://github.com/guanshiyin28/Restaurant-Review/releases).
+
+<hr><br>
+
 ## Features
 
 - Discover restaurants based on location and cuisine
