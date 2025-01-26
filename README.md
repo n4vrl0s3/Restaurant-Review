@@ -1,4 +1,4 @@
-# Restaurant Review APP
+# Restaurant Review
 
 This repository contains the source code for a restaurant review application developed using the Kotlin language within the Android Studio environment.
 
