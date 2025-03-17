@@ -1,4 +1,4 @@
-package com.guan.restaurantreview
+package com.yansha.restaurantreview
 
 import android.content.Context
 import android.os.Bundle
@@ -12,13 +12,13 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
-import com.guan.restaurantreview.data.response.CustomerReviewsItem
-import com.guan.restaurantreview.data.response.PostReviewResponse
-import com.guan.restaurantreview.data.response.Restaurant
-import com.guan.restaurantreview.data.response.RestaurantResponse
-import com.guan.restaurantreview.data.retrofit.ApiConfig
-import com.guan.restaurantreview.databinding.ActivityMainBinding
-import com.guan.restaurantreview.ui.ReviewAdapter
+import com.yansha.restaurantreview.data.response.CustomerReviewsItem
+import com.yansha.restaurantreview.data.response.PostReviewResponse
+import com.yansha.restaurantreview.data.response.Restaurant
+import com.yansha.restaurantreview.data.response.RestaurantResponse
+import com.yansha.restaurantreview.data.retrofit.ApiConfig
+import com.yansha.restaurantreview.databinding.ActivityMainBinding
+import com.yansha.restaurantreview.ui.ReviewAdapter
 import retrofit2.Call
 import retrofit2.Response
 
@@ -115,7 +115,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun postReview(review : String) {
         showLoading(false)
-        val client = ApiConfig.getApiService().postReview(RESTAURANT_ID, "Muhammad Agisna Yudiansyah", review)
+        val client = ApiConfig.getApiService().postReview(RESTAURANT_ID, "Yansha", review)
         client.enqueue(object : retrofit2.Callback<PostReviewResponse> {
             override fun onResponse(
                 call: Call<PostReviewResponse>,

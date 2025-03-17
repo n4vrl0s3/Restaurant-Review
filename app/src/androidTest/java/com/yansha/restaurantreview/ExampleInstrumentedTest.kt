@@ -1,4 +1,4 @@
-package com.guan.restaurantreview
+package com.yansha.restaurantreview
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -4,15 +4,15 @@ plugins {
 }
 
 android {
-    namespace = "com.guan.restaurantreview"
+    namespace = "com.yansha.restaurantreview"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.guan.restaurantreview"
+        applicationId = "com.yansha.restaurantreview"
         minSdk = 24
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 3
+        versionName = "1.1.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

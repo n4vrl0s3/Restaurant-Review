@@ -1,4 +1,4 @@
-package com.guan.restaurantreview.data.response
+package com.yansha.restaurantreview.data.response
 
 import com.google.gson.annotations.SerializedName
 

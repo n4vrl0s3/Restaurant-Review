@@ -1,4 +1,4 @@
-package com.guan.restaurantreview.data.retrofit
+package com.yansha.restaurantreview.data.retrofit
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

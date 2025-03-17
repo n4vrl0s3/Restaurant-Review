@@ -1,4 +1,4 @@
-package com.guan.restaurantreview
+package com.yansha.restaurantreview
 
 import org.junit.Test
 

@@ -1,7 +1,7 @@
-package com.guan.restaurantreview.data.retrofit
+package com.yansha.restaurantreview.data.retrofit
 
-import com.guan.restaurantreview.data.response.PostReviewResponse
-import com.guan.restaurantreview.data.response.RestaurantResponse
+import com.yansha.restaurantreview.data.response.PostReviewResponse
+import com.yansha.restaurantreview.data.response.RestaurantResponse
 import retrofit2.Call
 import retrofit2.http.Field
 import retrofit2.http.FormUrlEncoded
